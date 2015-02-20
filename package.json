@@ -1,0 +1,48 @@
+{
+  "name": "configger",
+  "version": "0.0.1",
+  "description": "A configuration processor for your application.",
+  "homepage": "https://github.com/sholladay/configger",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "node script/install.js",
+    "update": "node script/update.js",
+    "test": "grunt test",
+    "prepublish": "node script/prepublish.js"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "~0.10.35",
+    "npm": "~2.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/configger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/configger/issues"
+  },
+  "license": "MPL-2.0",
+  "directories": {
+    "doc": "./doc",
+    "man": "./man",
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "keywords": [
+    "configuration",
+    "processor",
+    "initialization",
+    "init",
+    "helper"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "intern": "^2.2.2",
+    "shelljs": "^0.3.0"
+  }
+}
